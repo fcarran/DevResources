@@ -76,21 +76,11 @@ mas "Compressor", id: 424390742
 mas "CopyClip", id: 595191960
 mas "Final Cut Pro", id: 424389933
 mas "Flexiglass", id: 426410278
-mas "GarageBand", id: 682658836
 mas "GIPHY CAPTURE", id: 668208984
 mas "Horo", id: 1437226581
-mas "iMovie", id: 408981434
-mas "iPhoto", id: 408981381
 mas "iStat Menus", id: 1319778037
 mas "iStat Mini", id: 927292435
-mas "Keynote", id: 409183694
-mas "Logic Pro X", id: 634148309
-mas "MainStage 3", id: 634159523
-mas "Microsoft Remote Desktop", id: 715768417
-mas "MiniPlay", id: 936243210
 mas "Motion", id: 434290957
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "Slack", id: 803453959
 mas "ToothFairy", id: 1191449274
 mas "Unclutter", id: 577085396
