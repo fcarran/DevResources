@@ -88,4 +88,5 @@ mas "Slack", id: 803453959
 mas "ToothFairy", id: 1191449274
 mas "Unclutter", id: 577085396
 mas "WhatsApp", id: 1147396723
+mas "Things 3", id: 904280696
 mas "Xcode", id: 497799835
