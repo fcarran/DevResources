@@ -65,6 +65,9 @@ cask "tunnelblick"
 cask "spotmenu"
 cask "raycast"
 cask "clipy"
+cask "airbuddy"
+cask "monitorcontrol"
+
 
 mas "1Password", id: 443987910
 mas "Amphetamine", id: 937984704
