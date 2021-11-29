@@ -63,6 +63,7 @@ brew "px4/px4/gcc-arm-none-eabi"
 
 cask "tunnelblick"
 cask "spotmenu"
+cask "raycast"
 
 mas "1Password", id: 443987910
 mas "Amphetamine", id: 937984704
