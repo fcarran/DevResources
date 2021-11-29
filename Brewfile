@@ -61,6 +61,9 @@ brew "heroku/brew/heroku", link: false
 brew "osx-cross/avr/avr-gcc@9"
 brew "px4/px4/gcc-arm-none-eabi"
 
+cask "iterm2"
+cask "atom"
+cask "visual-studio-code"
 cask "tunnelblick"
 cask "spotmenu"
 cask "raycast"
