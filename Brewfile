@@ -9,6 +9,8 @@ tap "theeternalsw0rd/telnet"
 tap "derailed/k9s"
 tap "derailed/popeye"
 tap "deviceinsight/packages"
+
+
 brew "python@3.9"
 brew "ansible"
 brew "aws-iam-authenticator"
