@@ -10,3 +10,23 @@ Admittedly, I would have never of heard of this tool had I not listened to Casey
 
 
 First things first, installing [Homebrew](https://brew.sh).
+
+With Homebrew installed, the fun begins.
+
+As mentioned above, we'll be using Bundle. Bundle requires what is called a `Brewfile`, that contains apps, packages, etc from your current installation. 
+To generate this file, run:
+
+```
+brew bundle dump
+```
+
+generating a Brewfile (hopefully you ran this from your home dir).
+
+With this newly minted file, you can now run:
+
+```
+brew bundle install
+```
+
+Be patient! Especially if you're installing something like XCode 😅
+
