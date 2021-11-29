@@ -30,3 +30,5 @@ brew bundle install
 
 Be patient! Especially if you're installing something like XCode 😅
 
+Yes, this will require some maintenance/upkeep as you add new apps to the Brewfile, so I'll add it to this repo for safe keeping.
+
