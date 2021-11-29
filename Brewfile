@@ -69,6 +69,7 @@ cask "spotmenu"
 cask "raycast"
 cask "clipy"
 cask "airbuddy"
+cask "google-chrome"
 cask "monitorcontrol"
 
 
