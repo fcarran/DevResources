@@ -61,6 +61,7 @@ brew "heroku/brew/heroku", link: false
 brew "osx-cross/avr/avr-gcc@9"
 brew "px4/px4/gcc-arm-none-eabi"
 
+
 cask "iterm2"
 cask "atom"
 cask "visual-studio-code"
@@ -72,6 +73,8 @@ cask "airbuddy"
 cask "google-chrome"
 cask "monitorcontrol"
 cask "homebrew/cask-fonts/font-meslo-for-powerline"
+cask "homebrew/cask-fonts/font-fira-code"
+cask "homebrew/cask-fonts/font-jetbrains-mono"
 
 
 mas "1Password", id: 443987910
