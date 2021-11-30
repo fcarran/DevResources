@@ -43,3 +43,7 @@ Adding in `tap "buo/cask-upgrade"` will update all of your apps.
 Then to upgrade them, `brew cu`
 
 And, as promised my personal [Brewfile](https://github.com/fcarran/DevResources/blob/main/Brewfile).
+
+## The ultimate terminal
+
+The default terminal is... fine. But it could be so much better. If you're in the tech world, you're probably already using something different, whether that be Hyper, of the default app. My personal choice is iTerm2 (already installed thanks to the handy dandy Brewfile).
