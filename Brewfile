@@ -71,6 +71,7 @@ cask "clipy"
 cask "airbuddy"
 cask "google-chrome"
 cask "monitorcontrol"
+cask "homebrew/cask-fonts/font-meslo-for-powerline"
 
 
 mas "1Password", id: 443987910
