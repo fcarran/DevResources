@@ -44,6 +44,8 @@ Then to upgrade them, `brew cu`
 
 And, as promised my personal [Brewfile](https://github.com/fcarran/DevResources/blob/main/Brewfile).
 
-## The ultimate terminal
+## The Ultimate Terminal
 
 The default terminal is... fine. But it could be so much better. If you're in the tech world, you're probably already using something different, whether that be Hyper, of the default app. My personal choice is iTerm2 (already installed thanks to the handy dandy Brewfile).
+
+iTerm2 is great on it's own, with it's fancy broadcasting to all panes and customizability, but the default shell is not. Enter [oh-my-zsh](https://ohmyz.sh)! 
