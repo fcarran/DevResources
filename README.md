@@ -38,3 +38,6 @@ UI apps can be searched for using `brew search <appname>`
 Apps available from the Mac App Store can be searched for using `mas search <appname>`
 Fonts can be searched for in a similar manner, `brew search <font>`
 
+Adding in `tap "buo/cask-upgrade"` will update all of your apps. 
+
+Then to upgrade them, `brew cu`
