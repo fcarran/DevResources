@@ -9,6 +9,7 @@ tap "theeternalsw0rd/telnet"
 tap "derailed/k9s"
 tap "derailed/popeye"
 tap "deviceinsight/packages"
+tap "buo/cask-upgrade"
 
 
 brew "python@3.9"
