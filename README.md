@@ -46,6 +46,6 @@ And, as promised my personal [Brewfile](https://github.com/fcarran/DevResources/
 
 ## The Ultimate Terminal
 
-The default terminal is... fine. But it could be so much better. If you're in the tech world, you're probably already using something different, whether that be Hyper, of the default app. My personal choice is iTerm2 (already installed thanks to the handy dandy Brewfile).
+The default terminal is... fine. But it could be so much better. If you're in the tech world, you're probably already using something different, whether that be Hyper, or the default app. My personal choice is iTerm2 (already installed thanks to the handy dandy Brewfile).
 
-iTerm2 is great on it's own, with it's fancy broadcasting to all panes and customizability, but the default shell is not. Enter [oh-my-zsh](https://ohmyz.sh)! 
+iTerm2 is great on it's own, with it's fancy broadcasting to all panes and ability to [sync](https://shyr.io/blog/sync-iterm2-configs) settings across devices, but the default shell is not. Enter [oh-my-zsh](https://ohmyz.sh)! 
