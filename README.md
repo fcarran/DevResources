@@ -32,3 +32,9 @@ Be patient! Especially if you're installing something like XCode 😅
 
 Yes, this will require some maintenance/upkeep as you add new apps to the Brewfile, so I'll add it to this repo for safe keeping.
 
+A good habit to get into is to install any available apps you use using this method - even fonts.
+
+UI apps can be searched for using `brew search <appname>`
+Apps available from the Mac App Store can be searched for using `mas search <appname>`
+Fonts can be searched for in a similar manner, `brew search <font>`
+
