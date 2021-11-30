@@ -50,4 +50,9 @@ The default terminal is... fine. But it could be so much better. If you're in th
 
 iTerm2 is great on it's own, with it's fancy broadcasting to all panes and ability to [sync](https://shyr.io/blog/sync-iterm2-configs) settings across devices, but the default shell is not. Enter [oh-my-zsh](https://ohmyz.sh)! 
 
-[Freecodecamp](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/) has a great guide already on how to set this up, so I'll pick and choose what I ended up using:
+[Freecodecamp](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/) has a great guide already on how to set this up, so I'll pick and choose what I ended up using.
+
+And assuming oh-my-zsh is already installed - the terminal should now look a little cleaner. But wait, there's still some more things to do! Like themes, extensions, and icon packs!
+
+If you've read ahead and taken a peak at my .zshrc file, you might have already seen a few of my day to day extensions and aliases (nobody likes to type more keystrokes than they have to).
+
