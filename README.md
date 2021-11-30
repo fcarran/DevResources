@@ -49,3 +49,5 @@ And, as promised my personal [Brewfile](https://github.com/fcarran/DevResources/
 The default terminal is... fine. But it could be so much better. If you're in the tech world, you're probably already using something different, whether that be Hyper, or the default app. My personal choice is iTerm2 (already installed thanks to the handy dandy Brewfile).
 
 iTerm2 is great on it's own, with it's fancy broadcasting to all panes and ability to [sync](https://shyr.io/blog/sync-iterm2-configs) settings across devices, but the default shell is not. Enter [oh-my-zsh](https://ohmyz.sh)! 
+
+[Freecodecamp](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/) has a great guide already on how to set this up, so I'll pick and choose what I ended up using:
