@@ -41,3 +41,5 @@ Fonts can be searched for in a similar manner, `brew search <font>`
 Adding in `tap "buo/cask-upgrade"` will update all of your apps. 
 
 Then to upgrade them, `brew cu`
+
+And, as promised my personal [Brewfile](https://github.com/fcarran/DevResources/blob/main/Brewfile).
