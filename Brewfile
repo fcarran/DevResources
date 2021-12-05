@@ -76,6 +76,8 @@ cask "monitorcontrol"
 cask "homebrew/cask-fonts/font-meslo-for-powerline"
 cask "homebrew/cask-fonts/font-fira-code"
 cask "homebrew/cask-fonts/font-jetbrains-mono"
+cask "homebrew/cask-fonts/font-hack-nerd-font"
+cask "homebrew/cask-fonts/font-meslo-for-powerline"
 
 
 mas "1Password", id: 443987910
