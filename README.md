@@ -57,3 +57,8 @@ And assuming oh-my-zsh is already installed - the terminal should now look a lit
 If you've read ahead and taken a peak at my [.zshrc](https://github.com/fcarran/DevResources/blob/main/.zshrc) file, you might have already seen a few of my day to day extensions and aliases (nobody likes to type more keystrokes than they have to).
 
 ![aliases](https://github.com/fcarran/DevResources/blob/main/images/Aliases.png "aliases")
+
+
+Personally, with oh-my-zsh I like using [PowerLevel10K](https://github.com/romkatv/powerlevel10k#oh-my-zsh). Run `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k` and once installed/rebooted the session you'll be walked through a setup wizard. 
+
+Finally, set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`
