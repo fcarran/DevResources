@@ -56,3 +56,4 @@ And assuming oh-my-zsh is already installed - the terminal should now look a lit
 
 If you've read ahead and taken a peak at my [.zshrc](https://github.com/fcarran/DevResources/blob/main/.zshrc) file, you might have already seen a few of my day to day extensions and aliases (nobody likes to type more keystrokes than they have to).
 
+![aliases](https://github.com/fcarran/DevResources/blob/main/images/Aliases.png "aliases")
