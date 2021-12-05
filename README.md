@@ -64,3 +64,11 @@ Personally, with oh-my-zsh I like using [PowerLevel10K](https://github.com/romka
 Finally, set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`
 
 PL10K comes with some pretty sweet icon sets, problem is you'll need a compatible font in order to view them - but trust me, it's worth it!
+
+Now, my personal favorites should have already been installed via the Brewfile
+```
+cask "homebrew/cask-fonts/font-hack-nerd-font"
+cask "homebrew/cask-fonts/font-meslo-for-powerline"
+```
+
+But in the event they aren't then can be installed after the fact, and setup in iTerm's settings as 
