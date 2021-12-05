@@ -62,3 +62,5 @@ If you've read ahead and taken a peak at my [.zshrc](https://github.com/fcarran/
 Personally, with oh-my-zsh I like using [PowerLevel10K](https://github.com/romkatv/powerlevel10k#oh-my-zsh). Run `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k` and once installed/rebooted the session you'll be walked through a setup wizard. 
 
 Finally, set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`
+
+PL10K comes with some pretty sweet icon sets, problem is you'll need a compatible font in order to view them - but trust me, it's worth it!
