@@ -73,3 +73,6 @@ cask "homebrew/cask-fonts/font-meslo-for-powerline"
 
 But in the event they aren't then can be installed after the fact, and setup in iTerm's settings like:
 ![iTermSettings](https://github.com/fcarran/DevResources/blob/main/images/iTerm-Settings.png "settings")
+
+And once this is all set and done, voila! 
+![Final](https://github.com/fcarran/DevResources/blob/main/images/iTermFinal.png "final")
