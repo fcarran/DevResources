@@ -71,4 +71,5 @@ cask "homebrew/cask-fonts/font-hack-nerd-font"
 cask "homebrew/cask-fonts/font-meslo-for-powerline"
 ```
 
-But in the event they aren't then can be installed after the fact, and setup in iTerm's settings as 
+But in the event they aren't then can be installed after the fact, and setup in iTerm's settings like:
+![iTermSettings](https://github.com/fcarran/DevResources/blob/main/images/iTerm-Settings.png "settings")
