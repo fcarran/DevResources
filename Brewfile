@@ -1,23 +1,25 @@
-tap "hashicorp/tap"
-tap "heroku/brew"
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
-tap "osx-cross/avr"
-tap "px4/px4"
-tap "theeternalsw0rd/telnet"
 tap "derailed/k9s"
 tap "derailed/popeye"
 tap "deviceinsight/packages"
-tap "buo/cask-upgrade"
-
-
-brew "python@3.9"
+tap "hashicorp/tap"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "osx-cross/arm"
+tap "osx-cross/avr"
+tap "px4/px4"
+tap "qmk/qmk"
+tap "theeternalsw0rd/telnet"
+brew "openssl@3"
 brew "ansible"
+brew "autoconf"
+brew "avrdude"
 brew "aws-iam-authenticator"
-brew "awscli"
 brew "bat"
 brew "colordiff"
+brew "dfu-programmer"
+brew "dfu-util"
 brew "duff"
 brew "eksctl"
 brew "fping"
@@ -31,72 +33,148 @@ brew "k9s"
 brew "kubernetes-cli"
 brew "kubectx"
 brew "lsd"
+brew "mas"
+brew "mysql"
 brew "nghttp2"
-brew "node", link: false
+brew "node"
+brew "postgresql@14"
 brew "prettyping"
-brew "sphinx-doc"
+brew "python@3.9"
+brew "ruby-build"
+brew "rbenv"
+brew "sphinx-doc", link: false
 brew "stern"
 brew "telnet"
-brew "terraform"
 brew "tflint"
 brew "thefuck"
+brew "tree"
 brew "watch"
 brew "wget"
 brew "yamllint"
 brew "yarn"
+brew "youtube-dl"
+brew "zsh"
 brew "zsh-syntax-highlighting"
 brew "derailed/popeye/popeye"
 brew "deviceinsight/packages/kafkactl"
-brew "autoconf"
-brew "avrdude"
-brew "dfu-programmer"
-brew "dfu-util"
-brew "mas"
-brew "mysql"
-brew "openssl@3"
-brew "rbenv"
-brew "tree"
-brew "zsh-syntax-highlighting"
+brew "hashicorp/tap/packer"
 brew "hashicorp/tap/terraform"
-brew "heroku/brew/heroku", link: false
+brew "heroku/brew/heroku"
 brew "osx-cross/avr/avr-gcc@9"
 brew "px4/px4/gcc-arm-none-eabi"
-
-
-cask "iterm2"
-cask "atom"
-cask "visual-studio-code"
-cask "tunnelblick"
-cask "spotmenu"
-cask "raycast"
-cask "clipy"
+brew "qmk/qmk/qmk"
 cask "airbuddy"
+cask "atom"
+cask "clipy"
+cask "docker"
+cask "font-fira-code"
+cask "font-hack-nerd-font"
+cask "font-jetbrains-mono"
+cask "font-meslo-for-powerline"
 cask "google-chrome"
 cask "monitorcontrol"
-cask "homebrew/cask-fonts/font-meslo-for-powerline"
-cask "homebrew/cask-fonts/font-fira-code"
-cask "homebrew/cask-fonts/font-jetbrains-mono"
-cask "homebrew/cask-fonts/font-hack-nerd-font"
-cask "homebrew/cask-fonts/font-meslo-for-powerline"
-
-
-mas "1Password", id: 443987910
+cask "qmk-toolbox"
+cask "raycast"
+cask "spotmenu"
+cask "tunnelblick"
+cask "visual-studio-code"
+mas "1Password 7", id: 1333542190
 mas "Amphetamine", id: 937984704
+mas "Boop", id: 1518425043
 mas "Clocker", id: 1056643111
 mas "Compressor", id: 424390742
 mas "CopyClip", id: 595191960
 mas "Final Cut Pro", id: 424389933
 mas "Flexiglass", id: 426410278
+mas "GarageBand", id: 682658836
 mas "GIPHY CAPTURE", id: 668208984
+mas "Honey", id: 1472777122
 mas "Horo", id: 1437226581
+mas "Hush", id: 1544743900
+mas "iMovie", id: 408981434
 mas "iStat Menus", id: 1319778037
 mas "iStat Mini", id: 927292435
+mas "Keynote", id: 409183694
+mas "Logic Pro", id: 634148309
+mas "Magnet", id: 441258766
+mas "MainStage", id: 634159523
+mas "Microsoft Remote Desktop", id: 715768417
+mas "MiniPlay", id: 936243210
 mas "Motion", id: 434290957
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "Slack", id: 803453959
+mas "Things", id: 904280696
 mas "ToothFairy", id: 1191449274
 mas "Unclutter", id: 577085396
 mas "WhatsApp", id: 1147396723
-mas "Things 3", id: 904280696
-mas "Magnet", id: 441258766
-mas "Boop", id: 1518425043
 mas "Xcode", id: 497799835
+vscode "adpyke.codesnap"
+vscode "akamud.vscode-theme-onedark"
+vscode "almenon.arepl"
+vscode "bceskavich.theme-dracula-at-night"
+vscode "chirtlelovesdolls.nebula-theme"
+vscode "chrsolr.rose-pine-nvchad-theme"
+vscode "dbaeumer.vscode-eslint"
+vscode "donjayamanne.githistory"
+vscode "dracula-theme.theme-dracula"
+vscode "eamodio.gitlens"
+vscode "eliverlara.andromeda"
+vscode "enkia.tokyo-night"
+vscode "equinusocio.vsc-material-theme"
+vscode "equinusocio.vsc-material-theme-icons"
+vscode "esbenp.prettier-vscode"
+vscode "fabiospampinato.vscode-diff"
+vscode "fosshaas.fontsize-shortcuts"
+vscode "gerane.theme-brogrammer"
+vscode "ginfuru.ginfuru-better-solarized-dark-theme"
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "github.github-vscode-theme"
+vscode "golang.go"
+vscode "hashicorp.hcl"
+vscode "hashicorp.terraform"
+vscode "jack-pallot.atom-dark-syntax"
+vscode "leodevbro.blockman"
+vscode "leveluptutorials.theme-levelup"
+vscode "mgmcdermott.vscode-language-babel"
+vscode "ms-azuretools.vscode-azureresourcegroups"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
+vscode "ms-python.debugpy"
+vscode "ms-python.isort"
+vscode "ms-python.python"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "ms-vsliveshare.vsliveshare"
+vscode "naumovs.color-highlight"
+vscode "nazenano.dark-magician-girl-color-theme"
+vscode "nicolasvuillamy.vscode-groovy-lint"
+vscode "oderwat.indent-rainbow"
+vscode "pawelborkar.jellyfish"
+vscode "pkief.material-icon-theme"
+vscode "pmndrs.pmndrs"
+vscode "pshershov.blueberry-banana"
+vscode "redhat.ansible"
+vscode "redhat.java"
+vscode "redhat.vscode-yaml"
+vscode "robbowen.synthwave-vscode"
+vscode "sdras.night-owl"
+vscode "sysoev.language-stylus"
+vscode "tomoki1207.pdf"
+vscode "valiantsin.operatormonodarktheme"
+vscode "visualstudioexptteam.intellicode-api-usage-examples"
+vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscjava.vscode-gradle"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-maven"
+vscode "waderyan.gitblame"
+vscode "wesbos.theme-cobalt2"
+vscode "whizkydee.material-palenight-theme"
+vscode "zhuangtongfa.material-theme"
