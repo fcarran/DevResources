@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<folders>
+	<folder>
+		<title>PW</title>
+		<snippets>
+			<snippet>
+				<title>FTP</title>
+				<content>XXXX</content>
+			</snippet>
+			<snippet>
+				<title>Functional ID</title>
+				<content>XXXX</content>
+			</snippet>
+			<snippet>
+				<title>IBM Prod VPN</title>
+				<content>XXXX!</content>
+			</snippet>
+			<snippet>
+				<title>Dev-Jenkins</title>
+				<content>XXXX</content>
+			</snippet>
+			<snippet>
+				<title>1Pass</title>
+				<content>XXXX</content>
+			</snippet>
+			<snippet>
+				<title>W3</title>
+				<content>XXXX</content>
+			</snippet>
+			<snippet>
+				<title>jFrog</title>
+				<content>XXXX</content>
+			</snippet>
+			<snippet>
+				<title>Google Instana</title>
+				<content>XXXXX</content>
+			</snippet>
+			<snippet>
+				<title>AWS Prod</title>
+				<content>XXXX</content>
+			</snippet>
+			<snippet>
+				<title>LDAP</title>
+				<content>XXXX</content>
+			</snippet>
+			<snippet>
+				<title>SOS</title>
+				<content>XXXX</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Elastic</title>
+		<snippets>
+			<snippet>
+				<title>Pretty</title>
+				<content>curl localhost:9200/_cluster/health?pretty</content>
+			</snippet>
+			<snippet>
+				<title>Unassigned Shards</title>
+				<content>curl -XGET localhost:9200/_cat/shards?h=index,shard,prirep,state,unassigned.reason| grep UNASSIGNED</content>
+			</snippet>
+			<snippet>
+				<title>Pending Tasks</title>
+				<content>curl localhost:9200/_cluster/pending_tasks?pretty</content>
+			</snippet>
+			<snippet>
+				<title>Check Recovery State</title>
+				<content>curl -s localhost:9200/_cat/recovery | grep -v done</content>
+			</snippet>
+			<snippet>
+				<title>Version</title>
+				<content>curl -XGET &apos;http://localhost:9200&apos;</content>
+			</snippet>
+			<snippet>
+				<title>Thread Pool Check</title>
+				<content>curl -s localhost:9200/_cat/thread_pool/search?h=node_name,name,active,queue,rejected,qs | sort -nr -k4,4 -k1,1</content>
+			</snippet>
+			<snippet>
+				<title>List Nodes</title>
+				<content>curl -XGET http://localhost:9200/_cat/nodes</content>
+			</snippet>
+			<snippet>
+				<title>Blocked Indexes</title>
+				<content>curl -s -XGET -H &quot;Content-Type: application/json&quot; &apos;http://localhost:9200/%2A/_settings/index.blocks.write?pretty&apos;</content>
+			</snippet>
+			<snippet>
+				<title>Cluster Settings</title>
+				<content>curl localhost:9200/_cluster/settings?pretty</content>
+			</snippet>
+			<snippet>
+				<title>Exclude Nodes</title>
+				<content>curl -X PUT &quot;localhost:9200/_cluster/settings?pretty&quot; -H &apos;Content-Type: application/json&apos; -d&apos;
+{
+  &quot;persistent&quot; : {
+    &quot;cluster.routing.allocation.exclude._name&quot; : &quot;&lt;REPLACE_WITH_NAME&gt;,&quot;
+  }
+}
+&apos;</content>
+			</snippet>
+			<snippet>
+				<title>Reset exclude rules - null</title>
+				<content>curl -s -XPUT -H &quot;Content-Type: application/json&quot; -d &apos;{&quot;persistent&quot;:{&quot;cluster.routing.allocation.exclude._name&quot;:null}}&apos; localhost:9200/_cluster/settings</content>
+			</snippet>
+			<snippet>
+				<title>Explain Unassigned</title>
+				<content>curl -XGET localhost:9200/_cluster/allocation/explain?pretty=true</content>
+			</snippet>
+			<snippet>
+				<title>Check Master Role - *</title>
+				<content>curl localhost:9200/_cat/nodes?v</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>MDQ</title>
+		<snippets>
+			<snippet>
+				<title>Collections</title>
+				<content>mdq -L</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>IBMCloud CLI</title>
+		<snippets>
+			<snippet>
+				<title>Log in</title>
+				<content>ibmcloud login -sso</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Zookeeper</title>
+		<snippets>
+			<snippet>
+				<title>Leader Check</title>
+				<content>echo srvr | nc localhost 2181 | grep Mode</content>
+			</snippet>
+			<snippet>
+				<title>Version Check</title>
+				<content>apt policy zookeeper</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>AWS Accounts</title>
+		<snippets>
+			<snippet>
+				<title>Prod</title>
+				<content>305565433046</content>
+			</snippet>
+			<snippet>
+				<title>Dev</title>
+				<content>410797082306</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Cassandra</title>
+		<snippets>
+			<snippet>
+				<title>Status</title>
+				<content>nodetool status</content>
+			</snippet>
+			<snippet>
+				<title>Describe Cluster</title>
+				<content>nodetool describecluster</content>
+			</snippet>
+			<snippet>
+				<title>Network File Activity</title>
+				<content>nodetool netstats | grep &apos;Receiving&apos;</content>
+			</snippet>
+			<snippet>
+				<title>Compactions</title>
+				<content>nodetool compactionstats</content>
+			</snippet>
+			<snippet>
+				<title>Get Stream Throughput</title>
+				<content>nodetool getstreamthroughput</content>
+			</snippet>
+			<snippet>
+				<title>Set Stream Throughput</title>
+				<content>nodetool setstreamthroughput</content>
+			</snippet>
+			<snippet>
+				<title>Drain Node</title>
+				<content>nodetool drain</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Teleport</title>
+		<snippets>
+			<snippet>
+				<title>Login</title>
+				<content>tsh login --auth=google_identity --proxy=instana.club:443 instana.club</content>
+			</snippet>
+			<snippet>
+				<title>Request Approve</title>
+				<content>tsh request approve </content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Linux</title>
+		<snippets>
+			<snippet>
+				<title>Disk Space/Mnt</title>
+				<content>df -h</content>
+			</snippet>
+			<snippet>
+				<title>Resize</title>
+				<content>resize2fs</content>
+			</snippet>
+			<snippet>
+				<title>IP Address Show</title>
+				<content>ip addr show</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Kafka</title>
+		<snippets>
+			<snippet>
+				<title>Check Max # Topics </title>
+				<content>kafka-topics --bootstrap-server localhost:9092 --describe --topic {TU_name}</content>
+			</snippet>
+			<snippet>
+				<title>Check Topic List</title>
+				<content>instanactl --deployment &lt;region_color&gt; adm kafka topics list</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Clickhouse</title>
+		<snippets>
+			<snippet>
+				<title>Query Count By Host</title>
+				<content>select hostName() as h, count() as c, max(elapsed) from clusterAllReplicas(&apos;us-west-2&apos;, &apos;system&apos;, &apos;processes&apos;) where startsWith(initial_query_id, &apos;INSERT INTO all_calls_v3&apos;) group by h order by c</content>
+			</snippet>
+			<snippet>
+				<title>Queary Error Code Count</title>
+				<content>select hostName() as h, exception_code as e, count() as c from clusterAllReplicas(&apos;us-west-2&apos;, &apos;system&apos;, &apos;query_log&apos;) where query_kind = &apos;Insert&apos; and exception_code != 0 and event_time &gt; subtractMinutes(now(), 2) group by h, e</content>
+			</snippet>
+			<snippet>
+				<title>All Running Queries</title>
+				<content>select hostName() as h, query_kind, count() as c, max(elapsed) as m from clusterAllReplicas(&apos;us-west-2&apos;, &apos;system&apos;, &apos;processes&apos;) group by h, query_kind order by query_kind, c</content>
+			</snippet>
+			<snippet>
+				<title>Version Check</title>
+				<content>apt policy clickhouse</content>
+			</snippet>
+			<snippet>
+				<title>Disks</title>
+				<content>SELECT
+    name,
+    path,
+    formatReadableSize(free_space) AS free,
+    formatReadableSize(total_space) AS total,
+    formatReadableSize(keep_free_space) AS reserved
+FROM system.disks</content>
+			</snippet>
+			<snippet>
+				<title>Check Disk Space</title>
+				<content>SELECT
+    name,
+    path,
+    formatReadableSize(free_space) AS free,
+    formatReadableSize(total_space) AS total,
+    formatReadableSize(keep_free_space) AS reserved
+FROM system.disks</content>
+			</snippet>
+		</snippets>
+	</folder>
+</folders>
